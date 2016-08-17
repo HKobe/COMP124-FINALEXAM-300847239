@@ -28,9 +28,8 @@ var core;
     //Rolls the Dice
     function rollDice() {
 
-        var random = Math.random(0,6);
-        var random2= Math.floor(0,6);
-    }
+var randomRoll = Math.floor(Math.random()* 6);
+var randomRoll2 = Math.floor(Math.random()* 6);    }
     function main() {
         //Adding the Image
         
