@@ -1,5 +1,5 @@
-# COMP125-Lesson13
+# COMP125-FinalExam
 
 ## CreateJS with TypeScript
 
-"# COMP124-FINALEXAM-300847239" 
+"# COMP125-FINALEXAM-300847239" 
