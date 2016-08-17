@@ -33,13 +33,36 @@ var core;
     }
     function main() {
         //Adding the Image
+        
         var blank = new createjs.Bitmap("Assets/images/blank.png");
+        var dice = new createjs.Bitmap("Assets/images/blank.png");
+        var Dice1 = new createjs.Bitmap("../Assets/images/1.png");
+        var Dice2 = new createjs.Bitmap("../Assets/images/2.png");
+        var Dice3 = new createjs.Bitmap("../Assets/images/3.png");
+        var Dice4 = new createjs.Bitmap("../Assets/images/4.png");
+        var Dice5 = new createjs.Bitmap("../Assets/images/5.png");
+        var Dice6 = new createjs.Bitmap("../Assets/images/6.png");
          var rollButton = new createjs.Bitmap("Assets/images/rollButton.png");
 
         //Adding to the stage
        stage.addChild(rollButton);
+        stage.addChild(Dice1);
+        stage.addChild(Dice2);
+        stage.addChild(Dice3);
+        stage.addChild(Dice4);
+        stage.addChild(Dice5);
+        stage.addChild(Dice6);
+        //Blanks
        stage.addChild(blank);
+       stage.addChild(dice);
+       //Co-ordinates
+       rollButton.x = 250;
+       rollButton.y = 300;
 
+      blank.x=50;
+      blank.y=50;
+      dice.x=400;
+      dice.y=50;
     }
     window.addEventListener("load", init);
 })(core || (core = {}));
